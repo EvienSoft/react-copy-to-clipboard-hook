@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": false,
+    "declaration": true,
+    "declarationDir": "dist",
+    "emitDeclarationOnly": false,
+    "outDir": "dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
