@@ -1,6 +1,6 @@
 {
   "name": "@eviensoft/react-copy-to-clipboard-hook",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A simple React Hook to copy text to clipboard with success/error tracking.",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
