@@ -1,6 +1,6 @@
 {
   "name": "@eviensoft/react-copy-to-clipboard-hook",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A simple React Hook to copy text to clipboard with success/error tracking.",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
@@ -15,7 +15,7 @@
   "scripts": {
     "build": "tsup src/index.ts --dts --format esm,cjs --out-dir dist",
     "prepublishOnly": "npm run build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "vitest"
   },
   "keywords": [
     "react",
@@ -32,8 +32,11 @@
     "react-dom": ">=17.0.0"
   },
   "devDependencies": {
-    "@types/react": "^19.1.2",
+    "@testing-library/react-hooks": "^8.0.1",
+    "@types/react": "^17.0.52",
+    "jsdom": "^26.1.0",
     "tsup": "^8.4.0",
-    "typescript": "^5.8.3"
+    "typescript": "^5.8.3",
+    "vitest": "^3.1.2"
   }
 }
